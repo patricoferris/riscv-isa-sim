@@ -404,6 +404,7 @@ disassembler_t::disassembler_t(int xlen)
 
   DEFINE_ITYPE(ori);
   DEFINE_ITYPE(andi);
+  DEFINE_ITYPE(cii);
   DEFINE_I1TYPE("sext.w", addiw);
   DEFINE_ITYPE(addiw);
 

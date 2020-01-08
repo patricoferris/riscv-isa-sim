@@ -93,7 +93,6 @@ riscv_insn_list = \
 	blt \
 	bltu \
 	bne \
-	caml_is_int \
 	c_add \
 	c_addi4spn \
 	c_addi \
@@ -127,6 +126,7 @@ riscv_insn_list = \
 	c_sub \
 	c_subw \
 	c_xor \
+	cii \
 	csrrc \
 	csrrci \
 	csrrs \
