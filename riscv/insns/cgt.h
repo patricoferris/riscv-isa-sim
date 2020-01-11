@@ -1,1 +1,1 @@
-WRITE_RD(RS1 > RS2 ? 3 : 1);
+WRITE_RD(RS1 > insn.i_imm() ? 3 : 1);

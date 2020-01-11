@@ -226,8 +226,8 @@
 #define RISCV_ENCODING_H
 #define MATCH_CII 0x7003
 #define MASK_CII  0x707f
-#define MATCH_CGT 0x200006b
-#define MASK_CGT  0xfe00707f
+#define MATCH_CGT 0x7
+#define MASK_CGT  0x707f
 #define MATCH_BEQ 0x63
 #define MASK_BEQ  0x707f
 #define MATCH_BNE 0x1063
