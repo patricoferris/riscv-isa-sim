@@ -127,6 +127,7 @@ riscv_insn_list = \
 	c_subw \
 	c_xor \
 	cii \
+	cgt \
 	csrrc \
 	csrrci \
 	csrrs \
