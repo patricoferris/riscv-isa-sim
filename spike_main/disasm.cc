@@ -393,6 +393,8 @@ disassembler_t::disassembler_t(int xlen)
   DEFINE_I1TYPE("mv", addi);
   DEFINE_ITYPE(addi);
   DEFINE_ITYPE(slti);
+  DEFINE_ITYPE(cii);
+  DEFINE_ITYPE(cgt);
   add_insn(new disasm_insn_t("seqz", match_sltiu | match_imm_1, mask_sltiu | mask_imm, {&xrd, &xrs1}));
   DEFINE_ITYPE(sltiu);
   add_insn(new disasm_insn_t("not", match_xori | mask_imm, mask_xori | mask_imm, {&xrd, &xrs1}));
