@@ -128,6 +128,11 @@ riscv_insn_list = \
 	c_xor \
 	cii \
 	cgt \
+	andn \
+	orn \
+	xorn \
+	min \
+	max \
 	csrrc \
 	csrrci \
 	csrrs \
