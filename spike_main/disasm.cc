@@ -395,6 +395,7 @@ disassembler_t::disassembler_t(int xlen)
   DEFINE_ITYPE(slti);
   DEFINE_ITYPE(cii);
   DEFINE_ITYPE(cgt);
+  DEFINE_ITYPE(ocval);
   DEFINE_RTYPE(andn);
   DEFINE_RTYPE(orn);
   DEFINE_RTYPE(xorn);
