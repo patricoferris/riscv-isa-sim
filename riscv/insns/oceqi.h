@@ -1,0 +1,1 @@
+WRITE_RD(rs1 == insn.i_imm())
