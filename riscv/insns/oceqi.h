@@ -1,1 +1,1 @@
-WRITE_RD(rs1 == insn.i_imm())
+WRITE_RD(RS1 == sreg_t(insn.i_imm()))
