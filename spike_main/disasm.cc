@@ -395,7 +395,7 @@ disassembler_t::disassembler_t(int xlen)
   DEFINE_ITYPE(slti);
   DEFINE_RTYPE(ocadd);
   DEFINE_RTYPE(ocsub);
-  DEFINE_RTYPE(ocjmp);
+  DEFINE_RTYPE(oclea);
   DEFINE_ITYPE(oceqi);
   DEFINE_ITYPE(ocvali);
   DEFINE_RTYPE(andn);

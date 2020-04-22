@@ -126,7 +126,7 @@ riscv_insn_list = \
 	c_sub \
 	c_subw \
 	c_xor \
-	ocjmp \
+	oclea \
 	ocadd \
 	ocsub \
 	oceqi \
