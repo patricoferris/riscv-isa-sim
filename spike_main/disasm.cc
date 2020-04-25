@@ -398,6 +398,8 @@ disassembler_t::disassembler_t(int xlen)
   DEFINE_RTYPE(oclea);
   DEFINE_ITYPE(oceqi);
   DEFINE_ITYPE(ocvali);
+  DEFINE_ITYPE(ocfet);
+  DEFINE_ITYPE(ocfex);
   DEFINE_RTYPE(andn);
   DEFINE_RTYPE(orn);
   DEFINE_RTYPE(xorn);

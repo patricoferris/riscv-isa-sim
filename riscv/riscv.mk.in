@@ -131,6 +131,8 @@ riscv_insn_list = \
 	ocsub \
 	oceqi \
 	ocvali \
+	ocfet \
+	ocfex \
 	andn \
 	orn \
 	xorn \
