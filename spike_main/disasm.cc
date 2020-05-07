@@ -393,8 +393,6 @@ disassembler_t::disassembler_t(int xlen)
   DEFINE_I1TYPE("mv", addi);
   DEFINE_ITYPE(addi);
   DEFINE_ITYPE(slti);
-  DEFINE_ITYPE(cii);
-  DEFINE_ITYPE(cgt);
   DEFINE_RTYPE(andn);
   DEFINE_RTYPE(orn);
   DEFINE_RTYPE(xorn);

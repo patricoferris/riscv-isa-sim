@@ -126,8 +126,6 @@ riscv_insn_list = \
 	c_sub \
 	c_subw \
 	c_xor \
-	cii \
-	cgt \
 	andn \
 	orn \
 	xorn \

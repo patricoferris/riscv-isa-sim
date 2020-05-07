@@ -1,1 +1,0 @@
-WRITE_RD((sreg_t(RS1) > insn.i_imm()) ? 3 : 1);
